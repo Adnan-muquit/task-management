@@ -1,40 +1,31 @@
-Task Management Web Application
-This is a simple Task Management Web Application built using the MERN (MongoDB, Express.js, React, Node.js) stack. The application allows users to create, update, delete, and manage tasks efficiently.
+# Task Management Web Application
 
-Features
-CRUD Operations: Create, Read, Update, Delete tasks.
-Real-time Updates: Task list updates in real-time using React state management.
-Responsive UI: User-friendly and responsive design for mobile and desktop.
-MongoDB Integration: Persistent data storage using MongoDB and Mongoose.
-RESTful API: Backend services built with Node.js and Express.js.
-Error Handling: Comprehensive error handling for smooth user experience.
-Tech Stack
-Frontend: React, React Hooks, Axios
-Backend: Node.js, Express.js
-Database: MongoDB, Mongoose
-Styling: CSS, Bootstrap (optional)
-Installation
-Clone the repository:
-bash
-Copy code
+This is a simple **Task Management Web Application** built using the **MERN** (MongoDB, Express.js, React, Node.js) stack. The application allows users to create, update, delete, and manage tasks efficiently.
+
+## Features
+
+- **CRUD Operations**: Create, Read, Update, Delete tasks.
+- **Real-time Updates**: Task list updates in real-time using React state management.
+- **Responsive UI**: User-friendly and responsive design for mobile and desktop.
+- **MongoDB Integration**: Persistent data storage using MongoDB and Mongoose.
+- **RESTful API**: Backend services built with Node.js and Express.js.
+- **Error Handling**: Comprehensive error handling for smooth user experience.
+
+## Tech Stack
+
+- **Frontend**: React, React Hooks, Axios
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB, Mongoose
+- **Styling**: CSS
+
+## Installation
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/Adnan-muquit/task-management.git
 cd task-management
-Install dependencies for both frontend and backend:
-Backend
-bash
-Copy code
-cd backend
-npm install
-Frontend
-bash
-Copy code
-cd ../frontend
-npm install
-Setup Environment Variables
-In the backend, create a .env file and add the following environment variables:
 
-env
-Copy code
 MONGO_URI=your-mongodb-connection-string
 Make sure to replace your-mongodb-connection-string with your actual MongoDB URI.
 
@@ -71,7 +62,7 @@ Copy code
     ├── src
     │   ├── components  # Reusable components
     │   ├── pages       # Application pages (Home, Login, etc.)
-    │   └── services    # Axios HTTP requests
+    │ 
 Future Enhancements
 Add filters and sorting for tasks.
 Implement task prioritization.
